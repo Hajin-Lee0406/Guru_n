@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.guru_n">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Guru_n">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".swu_out.FoodMapFragmentActivity"/>
+        <activity android:name=".swu_out.CafeMapFragmentActivity"/>
+        <activity android:name=".swu_out.WalkMapFragmentActivity"/>
+        <activity android:name=".swu_out.StudyMapFragmentActivity"/>
+        <activity android:name=".swu_out.PlayMapFragmentActivity"/>
+
+        <activity android:name=".swu_in.In_CafeMapFragmentActivity"/>
+        <activity android:name=".swu_in.In_FoodMapFragmentActivity"/>
+        <activity android:name=".swu_in.In_PhotoMapFragmentActivity"/>
+        <activity android:name=".swu_in.In_RestMapFragmentActivity"/>
+        <activity android:name=".swu_in.In_StudyMapFragmentActivity"/>
+
+        <!--정보 전달 결과 액티비티-->
+        <activity android:name=".swu_out.result.cafe.CafeResult1Activity"/>
+        <activity android:name=".swu_in.food.FoodResult1Activity"/>
+
+        <!-- 팝업 Activity -->
+        <activity android:name=".swu_in.PopupActivity" android:theme="@android:style/Theme.Dialog" />
+
+
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="2nv9b63rbh" />
+
+    </application>
+
+</manifest>

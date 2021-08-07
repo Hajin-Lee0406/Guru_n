@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMap_food"
+            android:layout_width="158dp"
+            android:layout_height="102dp"
+            android:layout_marginStart="24dp"
+            android:text="서울여대 주변_음식점"
+            tools:layout_editor_absoluteY="161dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btnMap_cafe"
+            android:layout_width="158dp"
+            android:layout_height="102dp"
+            android:layout_margin="10dp"
+            android:text="서울여대 주변_카페"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="283dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMap_walk"
+            android:layout_width="152dp"
+            android:layout_height="102dp"
+            android:text="서울여대 주변_\n산책스팟"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="283dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/btnMap_play"
+            android:layout_width="152dp"
+            android:layout_height="102dp"
+            android:text="서울여대 주변_\n놀거리"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="415dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMap_study"
+            android:layout_width="152dp"
+            android:layout_height="102dp"
+            android:layout_gravity="center"
+            android:text="서울여대 주변_\n스터디스팟"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="415dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btnMap1111"
+            android:layout_width="152dp"
+            android:layout_height="102dp"
+            android:layout_gravity="center"
+            android:text="연습"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="415dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMap_food_in"
+            android:layout_width="152dp"
+            android:layout_height="102dp"
+            android:layout_gravity="center"
+            android:text="서울여대 안_음식점"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="415dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btnMap_cafe_in"
+            android:layout_width="152dp"
+            android:layout_height="102dp"
+            android:layout_gravity="center"
+            android:text="서울여대 안_카페"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="415dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMap_rest_in"
+            android:layout_width="152dp"
+            android:layout_height="102dp"
+            android:layout_gravity="center"
+            android:text="서울여대 안_\휴식스팟"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="415dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btnMap_photo_in"
+            android:layout_width="152dp"
+            android:layout_height="102dp"
+            android:layout_gravity="center"
+            android:text="서울여대 안_\사진스팟"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="415dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMap_study_in"
+            android:layout_width="152dp"
+            android:layout_height="102dp"
+            android:layout_gravity="center"
+            android:text="서울여대 안_\n스터디스팟"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="415dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="152dp"
+            android:layout_height="102dp"
+            android:layout_gravity="center"
+            android:text="추가하기"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="415dp"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
